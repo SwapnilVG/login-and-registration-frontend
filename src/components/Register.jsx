@@ -1,3 +1,4 @@
+// Register.jsx
 import React, { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import { Form, Button, Container, Row, Col, InputGroup } from 'react-bootstrap';
@@ -28,7 +29,7 @@ function Register() {
   };
 
   return (
-    <Container fluid className="d-flex justify-content-center align-items-center min-vh-100">
+    <Container fluid className="d-flex justify-content-center align-items-center min-vh-100 login-bg">
       <Row className="w-100">
         <Col xs={12} sm={10} md={8} lg={6} xl={5} className="mx-auto">
           <div className="auth-card">
@@ -67,7 +68,7 @@ function Register() {
 
               <Button variant="primary" type="submit" className="mt-4 w-100">REGISTER</Button>
               <div className="text-center mt-3">
-                <p>Already have an account? <Link to="/">Login</Link></p>
+                <p className='f-bg'>Already have an account? <Link to="/">Login</Link></p>
               </div>
             </Form>
           </div>

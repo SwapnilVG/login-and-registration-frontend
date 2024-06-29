@@ -6,6 +6,9 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+.login-bg{
+  background: linear-gradient(to bottom, #058394, #008c9e);
+}
 .auth-card h3 {
   color: #fff;
 }
@@ -91,9 +94,6 @@
   }
 }
 
-.container {
-  margin-top: 50px;
-}
 
 .avatar-img {
   width: 40px;
@@ -105,4 +105,8 @@
 .action-icon {
   cursor: pointer;
   margin-right: 10px;
+}
+
+.f-bg{
+  color: #fff;
 }

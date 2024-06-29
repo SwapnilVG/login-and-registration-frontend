@@ -1,3 +1,4 @@
+// Login.jsx
 import React, { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import { Form, Button, Container, Row, Col, InputGroup } from 'react-bootstrap';
@@ -26,7 +27,7 @@ function Login() {
   };
 
   return (
-    <Container fluid className="d-flex justify-content-center align-items-center min-vh-100">
+    <Container fluid className="d-flex justify-content-center align-items-center min-vh-100 login-bg ">
       <Row className="w-100">
         <Col xs={12} sm={10} md={8} lg={6} xl={5} className="mx-auto">
           <div className="auth-card">
@@ -52,10 +53,10 @@ function Login() {
               <Button variant="primary" type="submit" className="mt-4 w-100">LOGIN</Button>
               <div className="d-flex justify-content-between mt-2">
                 <Form.Check type="checkbox" label="Remember me" />
-                <Link to="/forgot-password">Forgot your password?</Link>
+                <Link to="">Forgot your password?</Link>
               </div>
               <div className="text-center mt-3">
-                <p>Don't have an account? <Link to="/register">Sign up</Link></p>
+                <p className='f-bg'>Don't have an account? <Link to="/register">Sign up</Link></p>
               </div>
             </Form>
           </div>
