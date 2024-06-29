@@ -17,7 +17,7 @@ function Register() {
     e.preventDefault();
 
     try {
-      const response = await axios.post('https://login-and-registration-backend-l00m.onrender.com/api/register', { name, dob, email, password });
+      const response = await axios.post('https://login-and-registration-backend-kb5c.onrender.com/api/register', { name, dob, email, password });
       localStorage.setItem('token', response.data.token);
       localStorage.setItem('user', JSON.stringify(response.data.user));
       toast.success('Registration successful!');

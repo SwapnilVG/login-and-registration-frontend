@@ -14,7 +14,7 @@ function Login() {
   const handleLogin = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('https://login-and-registration-backend-l00m.onrender.com/api/login', { email, password });
+      const response = await axios.post('https://login-and-registration-backend-kb5c.onrender.com/api/login', { email, password });
       localStorage.setItem('token', response.data.token);
       localStorage.setItem('user', JSON.stringify(response.data.user));
       toast.success('Login successful!');
