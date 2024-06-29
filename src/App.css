@@ -1,0 +1,108 @@
+/* App.css */
+.auth-card {
+  background: #2a3d66;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.auth-card h3 {
+  color: #fff;
+}
+
+.auth-card .form-control {
+  background: #3b4b7d;
+  border: none;
+  color: #fff;
+}
+
+.auth-card .form-control::placeholder {
+  color: #b0b9d3;
+}
+
+.auth-card .form-control:focus {
+  background: #3b4b7d;
+  color: #fff;
+  box-shadow: none;
+}
+
+.auth-card .btn-primary {
+  background: #00bcd4;
+  border: none;
+}
+
+.auth-card .btn-primary:hover {
+  background: #00a6ba;
+}
+
+.auth-card .form-check-label {
+  color: #b0b9d3;
+}
+
+.auth-card a {
+  color: #00bcd4;
+}
+
+.auth-card a:hover {
+  color: #00a6ba;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  color: #3b4b7d;
+  font-size: 100px;
+}
+
+@media (max-width: 576px) {
+  .auth-card {
+    padding: 20px;
+  }
+
+  .avatar {
+    width: 80px;
+    height: 80px;
+    font-size: 80px;
+  }
+}
+
+@media (max-width: 768px) {
+  .auth-card {
+    padding: 25px;
+  }
+
+  .avatar {
+    width: 90px;
+    height: 90px;
+    font-size: 90px;
+  }
+}
+
+@media (max-width: 992px) {
+  .auth-card {
+    padding: 28px;
+  }
+
+  .avatar {
+    width: 95px;
+    height: 95px;
+    font-size: 95px;
+  }
+}
+
+.container {
+  margin-top: 50px;
+}
+
+.avatar-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.action-icon {
+  cursor: pointer;
+  margin-right: 10px;
+}
